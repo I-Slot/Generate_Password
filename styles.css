@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #273549;
+    font-family: sans-serif;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.container{
+background-color: #ECFDF5;
+height: 400px;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+span{
+    color: #5DEF92;
+}
+h1{
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 50px;
+
+}
+
+p{
+    color: #6B7280;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0;
+    
+}
+
+.Gen-btn{
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.input-div{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    align-items: flex-end;
+    background-color: #ECFDF5;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    /* margin-bottom: 0; */
+    border-top: 1px solid #6B7280;
+
+}
+
+#input {
+    width:150px;
+    padding: 10px;
+    background-color: #273549;
+    border: none;
+    border-radius: 3px;
+    color: #ECFDF5;
+   
+
+}
+
+#inputTwo{
+    width:150px;
+    padding: 10px;
+    background-color: #273549;
+    border: none;
+    border-radius: 3px;
+    color: #ECFDF5;
+   
+
+}
+.btn-two{
+    margin-left: 10px;
+}
+
+
+
