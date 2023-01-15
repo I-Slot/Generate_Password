@@ -12,25 +12,24 @@ const characters = [
   "]",",","|",":",";","<",">",".","?","/",
 ];
 
+
 let inputEl = document.getElementById("input");
 let inputTwoEl = document.getElementById("inputTwo");
-// for (let i = 0; i < characters.length; i++){
-//         console.log(characters[random])
-//     }
 
 function generatePassword() {
-    for (let i = 0; i < characters.length; i++){
-        // console.log(characters[i])
-        let random = Math.floor(Math.random() * characters.length);
-        let randomTwo = Math.floor(Math.random() * 10);
-        inputEl.textContent = random 
-        inputTwoEl.textContent = randomTwo
-    }
-    // for (let i = 0; i < characters.length; i++){
-    //     console.log(characters[random])
-    // }
-    // inputEl.textContent = 
-    // inputTwoEl.textContent = "Clcked"
+  
+  inputEl.textContent = "";
+  for (let i = 0; i < 10; i++) {
+    let random = Math.floor(Math.random() * characters.length);
+    inputEl.textContent += characters[random]
+  }
+
+
+
+  inputTwoEl.textContent = "";
+  for (let i = 0; i < 10; i++){
+    let randomTwo = Math.floor(Math.random() * characters.length);
+    inputTwoEl.textContent += characters[randomTwo]
+  }
 }
 
-generatePassword()

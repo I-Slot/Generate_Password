@@ -12,27 +12,29 @@ body{
 
 .container{
 background-color: #ECFDF5;
-height: 400px;
+height: 350px;
 width: 400px;
 margin-left: auto;
 margin-right: auto;
 text-align: left;
+border-radius: 5px;
 }
 
 span{
-    color: #5DEF92;
+    color: #10B981;
 }
 h1{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 30px;
     padding-top: 50px;
+    color: #273549;
 
 }
 
 p{
     color: #6B7280;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 0;
     
 }
@@ -42,9 +44,10 @@ p{
     color: white;
     border: none;
     border-radius: 3px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 20px;
-    padding: 8px;
+    height: 24px;
+    /* padding: 8px; */
 }
 
 .input-div{
@@ -56,30 +59,37 @@ p{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height: 70px;
+    height: 50px;
+    width: 338px;
     /* margin-bottom: 0; */
-    border-top: 1px solid #6B7280;
+    border-top: 1px solid #dee0e4;
 
 }
 
 #input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width:150px;
-    padding: 10px;
+    height: 24px;
     background-color: #273549;
     border: none;
     border-radius: 3px;
-    color: #ECFDF5;
+    color: #059669;
    
 
 }
 
 #inputTwo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width:150px;
-    padding: 10px;
+    height: 24px;
     background-color: #273549;
     border: none;
     border-radius: 3px;
-    color: #ECFDF5;
+    color: #059669;
    
 
 }
