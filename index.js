@@ -19,7 +19,7 @@ let inputTwoEl = document.getElementById("inputTwo");
 function generatePassword() {
   
   inputEl.textContent = "";
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 13; i++) {
     let random = Math.floor(Math.random() * characters.length);
     inputEl.textContent += characters[random]
   }
@@ -27,7 +27,7 @@ function generatePassword() {
 
 
   inputTwoEl.textContent = "";
-  for (let i = 0; i < 10; i++){
+  for (let i = 0; i < 13; i++){
     let randomTwo = Math.floor(Math.random() * characters.length);
     inputTwoEl.textContent += characters[randomTwo]
   }
