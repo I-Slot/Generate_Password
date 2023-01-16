@@ -21,7 +21,7 @@ function generatePassword() {
   inputEl.textContent = "";
   for (let i = 0; i < 13; i++) {
     let random = Math.floor(Math.random() * characters.length);
-    inputEl.textContent += characters[random]
+     inputEl.textContent += characters[random]
   }
 
 
