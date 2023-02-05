@@ -12,8 +12,8 @@ body{
 
 .container{
 background-color: #ECFDF5;
-height: 350px;
-max-width: 370px;
+height: 410px;
+max-width: 350px;
 margin-left: auto;
 margin-right: auto;
 text-align: left;
@@ -27,8 +27,9 @@ span{
 h1{
     text-align: left;
     margin-left: 30px;
-    padding-top: 50px;
+    padding-top: 70px;
     color: #273549;
+    font-size: 20px;
 
 }
 
